@@ -6,10 +6,14 @@
   "license": "MIT",
   "author": "Febrinanda and CoreBlow contributors",
   "type": "module",
+  "main": "src/profiler.mjs",
+  "bin": {
+    "coreblow-rtt": "bin/coreblow-rtt.mjs"
+  },
   "engines": {
     "node": ">=22.12.0"
   },
   "scripts": {
-    "test": "node test/rtt.test.mjs"
+    "test": "node test/rtt.test.mjs && node test/profiler.test.mjs"
   }
 }
