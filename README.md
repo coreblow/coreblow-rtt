@@ -1,3 +1,5 @@
+> **Archive Notice:** This repository has been consolidated into [coreblow/corebench](https://github.com/coreblow/corebench) (`corebench rtt`) and archived.
+
 # CoreBlow RTT
 
 Streaming Time-To-First-Token (TTFT) and Round-Trip Time (RTT) profiler for CoreBlow.
